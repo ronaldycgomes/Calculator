@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="" name ="calc">
+            <h1>CALCULADORA</h1>
+            <div class="flex">
+              <div id="calculadora">
+                  <input type="text" id = "visor" name = "visor">
+                  <div id="primeiraLinha">
+                      <input type="button" value = "7" class = "botao borda" onclick = "botao(value)">
+                      <input type="button" value = "8" class = "botao borda" onclick = "botao(value)">
+                      <input type="button" value = "9" class = "botao borda" onclick = "botao(value)">
+                      <input type="button" value = "/" class = "botao borda" onclick = "botao(value)">
+                  </div>
+                  <div id="segundaLinha">
+                      <input type="button" value = "4" class = "botao borda" onclick = "botao(value)">
+                      <input type="button" value = "5" class = "botao borda" onclick = "botao(value)">
+                      <input type="button" value = "6" class = "botao borda" onclick = "botao(value)">
+                      <input type="button" value = "*" class = "botao borda" onclick = "botao(value)">
+                  </div>
+                  <div id="terceiraLinha">
+                      <input type="button" value = "1" class = "botao borda" onclick = "botao(value)">
+                      <input type="button" value = "2" class = "botao borda" onclick = "botao(value)">
+                      <input type="button" value = "3" class = "botao borda" onclick = "botao(value)">
+                      <input type="button" value = "-" class = "botao borda" onclick = "botao(value)">
+                  </div>
+                  <div id="quartaLinha">
+                      <input type="button" value = "C" class = "botao borda" onclick = "resetar()">
+                      <input type="button" value = "0" class = "botao borda" onclick = "botao(value)">
+                      <input type="button" value = "=" class = "botao borda" onclick = "calcular()">
+                      <input type="button" value = "+" class = "botao borda" onclick = "botao(value)">
+                  </div>
+                <img class = "signature" src = "https://uploaddeimagens.com.br/images/003/144/715/full/signature.png?1616443554" /> 
+                </div>
+          </form>
+    </main>
+    <script src="./calc.js"></script>
+</body>
+</html>
